@@ -1,0 +1,114 @@
+@import './variables.scss';
+
+body {
+  background-color: $background-color;
+}
+
+.dashboard {
+  display: flex;
+  
+}
+.sidemenu{
+  // padding: 0 30px;
+}
+.sidebarCard{
+  background-color: $primary-color;
+  color: white;
+}
+.sidebarCard h5 ,.sidebarCard p{
+  margin: 5px 0;
+
+}
+.sidebar {
+  width: 20px;
+  background-color: $primary-color;
+  color: white;
+}
+.sidebarTitle{
+  text-align: center;
+}
+.content {
+  flex: 1;
+  padding: 24px;
+  background-color: white;
+}
+
+.navbar{
+  display: flex;
+  font-family: 30px;
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px 0;
+}
+.navbarLeft{
+  display: flex;
+  // flex-direction: column;
+  flex-wrap: wrap;
+  width: 15%;
+  justify-content: flex-start;
+}
+.navbarLeft h5{
+  padding: 0;
+  margin: 0;
+  text-align: justify;
+}
+.navbarRight{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+// .topContent{
+//   display: flex;
+ 
+// }
+.cardBody .ant-card-body{
+  padding: 10px;
+}
+.cardContent{
+  display: flex !important;
+   width: '100%';
+  //  padding: 0 24px;
+   justify-content: space-between;
+  align-items: center;
+}
+.cardContent h2{
+  padding: 0;
+  margin: 0;
+}
+.cardContent span{
+  font-size: 10px;
+}
+// .leftCardContent{
+// : center;
+// }
+.customBarChartWrapper {
+  width: 40%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  padding: 20px;
+  // overflow: hidden;
+}
+.customLineChartWrapper{
+  width: 60%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  padding: 20px;
+}
+.customBarChartWrapper h3 ,p{
+  padding: 0;
+  margin: 0;
+  color: black;
+  line-height: 20px;
+  text-align: start;
+
+} 
+.recharts-default-legend{
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  top: -70px;
+  right: 0;
+}
